@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t yourdockerhub/register-app .
+        run: docker build -t ajaydharajiya/register-app .
 
       - name: Push Docker Image
-        run: docker push yourdockerhub/register-app
+        run: docker push ajaydharajiya/register-app
