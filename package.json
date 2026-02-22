@@ -1,0 +1,27 @@
+{
+  "name": "ajaydharajiya-ragister-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaydharajiya/ajaydharajiya-Ragister-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ajaydharajiya/ajaydharajiya-Ragister-form/issues"
+  },
+  "homepage": "https://github.com/ajaydharajiya/ajaydharajiya-Ragister-form#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  }
+}
